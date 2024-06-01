@@ -1,0 +1,220 @@
+/* 2-about-us */
+.about-us > p:first-child {
+  letter-spacing: 0.325rem;
+}
+
+.border-prosess {
+  margin-bottom: -1.4rem;
+}
+.border-prosess-start {
+  height: 25rem;
+  margin-right: 4.5rem;
+}
+.number {
+  margin-top: -26rem;
+}
+/* ///4-process */
+.process {
+  padding-top: 5rem;
+  padding-bottom: 9rem;
+}
+.back-about-us {
+  margin-top: -23rem;
+}
+/* aboutus-cunter */
+.aboutus-cunter > div {
+  background: radial-gradient(
+    485.24% 295.89% at 42.09% -237.77%,
+    #0044f9 0%,
+    #001c66 100%
+  );
+}
+/* 6-our-team */
+.our-team > p {
+  letter-spacing: 0.325rem;
+}
+.ourteam-profile {
+  height: 20rem;
+  padding-bottom: 26%;
+  transition: all ease 0.5s;
+}
+.ourteam-profile > p {
+  font-size: 1rem !important;
+}
+.ourteam-profile:hover {
+  padding-bottom: 36%;
+}
+.prof-1 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 54, 194, 0) 0%,
+      rgba(0, 54, 194, 0.5) 100%
+    ),
+    url("../img/prof-1.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-1 > span {
+  opacity: 0;
+}
+.prof-1:hover {
+  background: linear-gradient(180deg, rgba(0, 54, 194, 0) 0%, #0036c2 100%),
+    url("../img/prof-1.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-1:hover span {
+  opacity: 1;
+}
+.prof-2 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 54, 194, 0) 0%,
+      rgba(0, 54, 194, 0.5) 100%
+    ),
+    url("../img/prof-2.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-2 > span {
+  opacity: 0;
+}
+.prof-2:hover {
+  background: linear-gradient(180deg, rgba(0, 54, 194, 0) 0%, #0036c2 100%),
+    url("../img/prof-2.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-2:hover span {
+  opacity: 1;
+}
+.prof-3 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 54, 194, 0) 0%,
+      rgba(0, 54, 194, 0.5) 100%
+    ),
+    url("../img/prof-3.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-3 > span {
+  opacity: 0;
+}
+.prof-3:hover {
+  background: linear-gradient(180deg, rgba(0, 54, 194, 0) 0%, #0036c2 100%),
+    url("../img/prof-3.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-3:hover span {
+  opacity: 1;
+}
+.prof-4 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 54, 194, 0) 0%,
+      rgba(0, 54, 194, 0.5) 100%
+    ),
+    url("../img/prof-4.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-4 > span {
+  opacity: 0;
+}
+.prof-4:hover {
+  background: linear-gradient(180deg, rgba(0, 54, 194, 0) 0%, #0036c2 100%),
+    url("../img/prof-4.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-4:hover span {
+  opacity: 1;
+}
+.prof-5 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 54, 194, 0) 0%,
+      rgba(0, 54, 194, 0.5) 100%
+    ),
+    url("../img/prof-5.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-5 > span {
+  opacity: 0;
+}
+.prof-5:hover {
+  background: linear-gradient(180deg, rgba(0, 54, 194, 0) 0%, #0036c2 100%),
+    url("../img/prof-5.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-5:hover span {
+  opacity: 1;
+}
+.prof-6 {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 54, 194, 0) 0%,
+      rgba(0, 54, 194, 0.5) 100%
+    ),
+    url("../img/prof-6.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-6 > span {
+  opacity: 0;
+}
+.prof-6:hover {
+  background: linear-gradient(180deg, rgba(0, 54, 194, 0) 0%, #0036c2 100%),
+    url("../img/prof-6.svg");
+  background-position: center;
+  background-size: cover;
+}
+.prof-6:hover span {
+  opacity: 1;
+}
+@media (max-width: 1199px) {
+  .back-about-us {
+    margin-top: -20rem;
+  }
+  .process {
+    padding-bottom: 7rem;
+  }
+}
+@media (max-width: 991px) {
+  .aboutus-cunter > div {
+    border-radius: 20px !important;
+  }
+  .process {
+    padding-bottom: 11rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .p-about {
+    width: 100% !important;
+  }
+  .about-us {
+    margin-top: 7rem;
+  }
+  .about-us > img {
+    width: 80% !important;
+  }
+  .aboutus-cunter > div {
+    border-radius: 20px !important;
+  }
+  .aboutus-cunter {
+    margin-top: -11rem;
+  }
+  .process {
+    padding-top: 3rem;
+  }
+}
+@media (min-width: 1400px) {
+  .aboutus-cunter {
+    margin-top: -3rem;
+  }
+}

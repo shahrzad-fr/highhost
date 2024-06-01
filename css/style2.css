@@ -1,0 +1,273 @@
+/* search of newest */
+.registering-newest-form > form {
+  width: 21rem;
+}
+.registering-newest-form > form > input {
+  width: 100%;
+  height: 2.9rem;
+}
+.registering-newest-form > a {
+  margin-right: -2.3rem;
+}
+.newest-domain {
+  width: 73rem;
+}
+.col-newest-dom {
+  width: 9.5rem;
+}
+/* /////2-read-more */
+#more {
+  display: none;
+}
+.read-more > p {
+  width: 45rem;
+}
+.read-more > img {
+  margin-top: -8rem;
+}
+.read-more > .bloor-readmore {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  height: 10.1875rem;
+  margin-top: -10rem;
+}
+.register-readmore {
+  margin-top: -6rem;
+}
+.register-readmore > form > input::placeholder {
+  color: #ababab !important;
+  font-size: 1rem;
+}
+.register-readmore > form > input {
+  width: 52rem;
+  height: 6rem;
+  border-color: #ffffff03;
+}
+.register-readmore > a {
+  margin-right: -11.6rem;
+  height: 4rem;
+  width: 11rem;
+  background: #0065d1 !important;
+  box-shadow: 0px 6px 16.2px 0px rgba(0, 123, 255, 0.4);
+}
+.register-readmore > a:hover {
+  background: #007bfff1 !important;
+}
+.register-readmore > a > div > img {
+  transition: all ease 0.5s;
+  margin-right: -2rem;
+}
+.register-readmore > a:hover div > img {
+  transform: translatex(-160%);
+}
+.register-readmore > a:hover div > p {
+  transform: translatex(20%);
+}
+.register-readmore > a > div > p {
+  transition: all ease 0.5s;
+}
+.readmore-div > p {
+  width: 5rem;
+}
+.readmore-div:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.16);
+}
+.readmore-price > p {
+  font-size: 2rem !important;
+  font-weight: 900;
+}
+.read-more > .btn-plan {
+  width: 7rem !important;
+}
+#myBtn {
+  margin-top: -4rem;
+}
+/* 3-seciurity */
+
+/* 4-fast-domain */
+.vsbt-container {
+  background: #ffffff96;
+}
+.vsbt:active {
+  border-color: #007bff00 !important;
+}
+.vsbt-gif {
+  left: -52%;
+  width: 5rem;
+}
+
+/* 4-safe-move*/
+.safe-move > div {
+  margin-top: 9rem;
+}
+
+@media (max-width: 767px) {
+  .newest-domain {
+    width: 58rem;
+  }
+  .security > img {
+    width: 80% !important;
+  }
+  .fast-domain > img {
+    width: 80% !important;
+  }
+  .safe-move > div {
+    margin-top: 0rem;
+  }
+  .safe-move > img {
+    width: 80% !important;
+  }
+  .check-dns > img {
+    width: 80% !important;
+  }
+}
+@media (max-width: 575px) {
+  .register-readmore {
+    margin-top: -1rem;
+  }
+  .register-readmore > a {
+    margin-right: -4.6rem;
+    width: 4rem;
+  }
+  .read-more {
+    margin-top: 7rem;
+  }
+  .register-readmore {
+    margin-top: -2rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .register-readmore > form {
+    width: 100%;
+  }
+  .register-readmore > form > input {
+    width: 100%;
+  }
+  .read-more > img {
+    margin-top: -2rem;
+  }
+  .read-more h1 {
+    width: 19rem;
+    text-align: center;
+  }
+  .read-more > p {
+    width: 19rem;
+  }
+  .register-readmore > form > input::placeholder {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .register-readmore {
+    margin-top: -3rem;
+  }
+  .read-more > img {
+    margin-top: -5rem;
+  }
+  .register-readmore > form > input {
+    width: 43rem;
+  }
+  .read-more > p {
+    width: 41rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .read-more {
+    margin-top: 7rem;
+  }
+  .register-readmore {
+    margin-top: -3rem;
+  }
+  .register-readmore {
+    margin-top: -2rem;
+  }
+  .register-readmore > form > input {
+    width: 31rem;
+  }
+  .read-more > p {
+    width: 28rem;
+  }
+  .read-more > img {
+    margin-top: -5rem;
+  }
+}
+/* /////////////beeeeeeeetweeeeeeeen */
+@media (min-width: 992px) and (max-width: 1399px) {
+  .readmore-price > p {
+    font-size: 1.5rem !important;
+    font-weight: 900;
+  }
+  .w-half {
+    width: 50% !important;
+  }
+  .w-fourty {
+    width: 40% !important;
+  }
+  .w-eghty {
+    width: 80% !important;
+  }
+
+  .spesh-server > img {
+    width: 50% !important;
+  }
+  .plan-spesh-price > p {
+    font-size: 1.5rem !important;
+    font-weight: 900;
+  }
+  .virtual-server > img {
+    width: 50% !important;
+  }
+  .registering-domain-back {
+    padding-bottom: 12rem;
+  }
+  .register-readmore > form > input {
+    width: 42rem;
+    height: 3.5rem;
+  }
+  .register-readmore > a {
+    margin-right: -12.6rem;
+  }
+  .registering-domain-slider {
+    margin-top: -15rem;
+  }
+  .plan-virtual-price > p {
+    font-size: 1.5rem !important;
+    font-weight: 900;
+  }
+  .plan-hihost > .plan-hihost-row:last-child {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .rejister-domain-bg {
+    margin-right: 25rem;
+  }
+  .mb-all-1 {
+    margin-bottom: 4.25rem;
+  }
+  .mb-all-2 {
+    margin-bottom: 3.19rem;
+  }
+  .mt-all-2 {
+    margin-top: 3.19rem;
+  }
+  .assist-bg-1 {
+    margin-top: -7.5rem;
+    margin-left: 0rem;
+  }
+  .assist-bg-2 {
+    margin-top: -7.5rem;
+    margin-right: 42rem;
+  }
+  .fooooter {
+    gap: 3rem !important;
+  }
+
+  .col-2-gap {
+    gap: 3rem;
+  }
+}
+/* /* ///////////maxxxxxxxxxxxx  */
+@media (max-width: 1199px) {
+  .plan-hihost {
+    margin-bottom: 0rem;
+  }
+}

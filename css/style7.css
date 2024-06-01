@@ -1,0 +1,31 @@
+.contact-us {
+  margin-top: -16.7rem;
+}
+.contact-us > p {
+  letter-spacing: 0.325rem;
+}
+.back-center {
+  position: relative;
+  z-index: -2;
+  margin-top: -25rem;
+}
+/* 4-form-contact */
+.form-contact > form > div > input::placeholder {
+  color: #525252 !important;
+  font-size: 0.75rem;
+}
+.form-contact > form > div > textarea::placeholder {
+  color: #525252 !important;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 767px) {
+  .contact-us {
+    margin-top: 7rem;
+  }
+  .form-contact > div {
+    width: 100% !important;
+    background: #00000000 !important;
+    box-shadow: unset !important;
+  }
+}

@@ -1,0 +1,47 @@
+/* /////2-buy-web*/
+.buy-web > div:last-child {
+  width: 45%;
+}
+/* /////3-detail-service*/
+.detail-service {
+  margin-top: 2rem;
+}
+.detailservice-p {
+  text-decoration: underline;
+}
+.suport-web > div > p {
+  padding-left: 11rem;
+}
+
+@media (max-width: 1199px) {
+  .detail-service > div > ul p {
+    font-size: 0.6rem !important;
+  }
+  .detail-service {
+    margin-top: 1rem;
+  }
+  .suport-web > div > p {
+    padding-left: 0rem;
+  }
+}
+@media (max-width: 767px) {
+  .detailservice-p {
+    font-size: 0.66rem !important;
+  }
+  .buy-web > div:last-child {
+    width: 80% !important;
+  }
+  .buy-web > div:first-child {
+    margin-top: 7rem;
+  }
+  .suport-web > img {
+    width: 80% !important;
+  }
+
+  .fast-web > img {
+    width: 80% !important;
+  }
+  .dns-web > img {
+    width: 80% !important;
+  }
+}

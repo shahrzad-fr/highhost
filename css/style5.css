@@ -1,0 +1,81 @@
+.buy-wordpress-server > div:first-child {
+  margin-top: 5.8rem;
+  width: 45%;
+}
+.buy-wordpress-server > div:last-child {
+  width: 45%;
+}
+.detail-service {
+  margin-top: -8rem;
+}
+.detailservice-p {
+  text-decoration: underline;
+}
+.host-name {
+  width: 82.5rem;
+}
+.buy-btn:hover {
+  background: #f0f7ff !important;
+}
+.prosses {
+  width: 108%;
+}
+
+@media (max-width: 1399px) {
+  .detail-service {
+    margin-top: -6rem;
+  }
+}
+@media (max-width: 1199px) {
+  .detail-service {
+    margin-top: 0rem;
+  }
+  .detail-service > div > ul p {
+    font-size: 0.6rem !important;
+  }
+}
+@media (max-width: 991px) {
+  .detail-service {
+    margin-top: 1rem;
+  }
+  .buy-wordpress-server > div:first-child {
+    margin-top: 0rem;
+  }
+  .wordpress-service > img {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .host-name {
+    width: 58rem;
+  }
+  .detailservice-p {
+    font-size: 0.66rem !important;
+  }
+  .buy-wordpress-server > div:first-child {
+    margin-top: 0rem;
+    width: 100% !important;
+  }
+  .buy-wordpress-server > div:last-child {
+    width: 80% !important;
+  }
+  .buy-wordpress-server {
+    margin-top: 7rem;
+  }
+  .iran-server > img {
+    width: 80% !important;
+  }
+  .work-wordpress > img {
+    width: 80% !important;
+  }
+  .backup-wordpress > img {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .detail-service {
+    margin-top: 1rem;
+  }
+}

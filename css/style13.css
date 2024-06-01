@@ -1,0 +1,51 @@
+.user > ul {
+  margin-top: -1rem;
+}
+.user > img {
+  width: 25%;
+}
+.user-comment {
+  position: sticky;
+  height: auto;
+  top: 1rem;
+}
+.form-text {
+  height: 7rem;
+}
+.form-user div > input::placeholder {
+  color: #525252 !important;
+  font-size: 0.75rem;
+}
+.form-user div > textarea::placeholder {
+  color: #525252 !important;
+  font-size: 0.75rem;
+}
+.buy-service {
+  background-position: left 0.75rem center;
+  --bs-form-select-bg-img: url(../img/select-dns.svg);
+  background-size: auto;
+  color: #525252 !important;
+  font-size: 0.75rem !important;
+}
+.pro-user {
+  margin-top: -2.5rem !important;
+}
+@media (max-width: 767px) {
+  .user {
+    margin-top: 7rem;
+  }
+  .user > img {
+    width: 45%;
+  }
+  .user-right {
+    width: 100% !important;
+  }
+  .user-left {
+    width: 100% !important;
+  }
+}
+@media (max-width: 450px) {
+  .user > img {
+    width: 75%;
+  }
+}

@@ -1,0 +1,78 @@
+/* 2-dnsfree */
+.dnsfree {
+  background: url("../img/dns-check.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 3-dns-check */
+
+.input-dns::placeholder {
+  color: #c1c1c1;
+}
+
+.select-dns {
+  background-position: left 0.75rem center;
+  --bs-form-select-bg-img: url("../img/select-dns.svg");
+  background-size: auto;
+  width: 12rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.list-shop2 {
+  margin-top: 0rem !important;
+}
+/* ////////// */
+@media (min-width: 1300px) and (max-width: 1399px) {
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+}
+/* /* ///////////maxxxxxxxxxxxx  */
+@media (max-width: 2755px) {
+}
+@media (max-width: 1800px) {
+}
+@media (max-width: 1500px) {
+}
+@media (max-width: 1199px) {
+  .dnsfree {
+    background-position-x: center;
+  }
+}
+@media (max-width: 991px) {
+  .dns-right {
+    width: 100% !important;
+  }
+  .dns-left {
+    width: 100% !important;
+  }
+  .select-dns {
+    width: 100%;
+  }
+  .input-dns {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .dnsfree {
+    background-position-x: center;
+    margin-top: 4rem;
+    width: 100% !important;
+  }
+  .input-dns {
+    width: 17rem;
+  }
+}
+@media (max-width: 400px) {
+}
+/* //////////min-whit  1600*/
+@media (min-width: 1200px) {
+}
+@media (min-width: 1500px) {
+}
+@media (min-width: 1550px) {
+}
+@media (min-width: 1600px) {
+}
+@media (min-width: 1750px) {
+}

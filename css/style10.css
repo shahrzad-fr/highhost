@@ -1,0 +1,112 @@
+/* 2-whois */
+.whois {
+  background: url("../img/whois.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 3-whois-search */
+.whoissearch-container {
+  margin-top: -4rem;
+}
+
+.whois-search > form > input::placeholder {
+  color: #ababab !important;
+  font-size: 1rem;
+}
+.whois-search > form > input {
+  height: 3.5rem;
+  border-color: #ffffff03;
+  width: 82%;
+}
+.whois-search > div {
+  width: 89%;
+}
+
+.whois-btn {
+  height: 2.4rem;
+  width: 11rem;
+  background: #0065d1 !important;
+  box-shadow: 0px 6px 16.2px 0px rgba(0, 123, 255, 0.4);
+  margin-top: -3rem;
+  margin-left: -0.6rem;
+}
+.whois-btn:hover {
+  background: #007bfff1 !important;
+}
+.whois-btn > div > img {
+  transition: all ease 0.5s;
+  margin-right: -2rem;
+}
+.whois-btn:hover div > img {
+  transform: translatex(-160%);
+}
+.whois-btn:hover div > p {
+  transform: translatex(20%);
+}
+.whois-btn > div > p {
+  transition: all ease 0.5s;
+}
+/* 4-fast-domain */
+.vsbt-container {
+  background: #ffffff96;
+}
+.vsbt:active {
+  border-color: #007bff00 !important;
+}
+.vsbt-gif {
+  left: -52%;
+  width: 5rem;
+}
+.list-shop2 {
+  margin-top: 0rem !important;
+}
+
+@media (max-width: 991px) {
+  .whois-btn {
+    height: 3rem;
+    width: 11rem;
+    margin-top: -3.9rem;
+    margin-left: 0rem;
+  }
+  .whois {
+    background-position-x: center;
+  }
+  .whoissearch-container {
+    margin-top: -3rem;
+  }
+  .whois-search > form > input {
+    height: 4.5rem;
+
+  }
+}
+@media (max-width: 767px) {
+  .fast-domain > img {
+    width: 80% !important;
+  }
+  .whois {
+    margin-top: 4rem;
+    width: 100% !important;
+  }
+  .whois-search > form > input {
+    width: 100% !important;
+  }
+  .whois-search > div {
+    width: 97%;
+  }
+  .whois-btn {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 399px) {
+  .whois-search > form > input::placeholder {
+    color: #ababab !important;
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .whoissearch-container {
+    margin-top: -2rem;
+  }
+}

@@ -1,0 +1,58 @@
+/* /////2-buy-virtual-serve*/
+
+.buy-virtual-server > div:first-child {
+  margin-top: 5.8rem;
+  width: 45%;
+}
+.buy-virtual-server > div:last-child {
+  width: 45%;
+}
+
+/* /////3-detail-service*/
+.detail-service {
+  margin-top: -8rem;
+}
+.detailservice-p {
+  text-decoration: underline;
+}
+@media (max-width: 1399px) {
+  .detail-service {
+    margin-top: -6rem;
+  }
+}
+@media (max-width: 1199px) {
+  .detail-service {
+    margin-top: -3rem;
+  }
+  .detail-service > div > ul p {
+    font-size: 0.6rem !important;
+  }
+}
+@media (max-width: 991px) {
+  .detail-service {
+    margin-top: 1rem;
+  }
+  .why-virtual > img {
+    width: 80% !important;
+  }
+}
+@media (max-width: 767px) {
+  .buy-virtual-server {
+    margin-top: 7rem;
+  }
+  .buy-virtual-server > div:first-child {
+    width: 100%;
+    margin-top: 0rem;
+  }
+
+  .buy-virtual-server > div:last-child {
+    width: 80%;
+  }
+  .detailservice-p {
+    font-size: 0.66rem !important;
+  }
+
+  .iran-server > img {
+    width: 80% !important;
+  }
+}

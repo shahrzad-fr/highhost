@@ -1,0 +1,66 @@
+/* /////2-buy-spesh-serve*/
+.buy-spesh-server > div:first-child {
+  margin-top: 5.8rem;
+  width: 45%;
+}
+.buy-spesh-server > div:last-child {
+  width: 45%;
+}
+
+/* /////3-detail-service*/
+.detail-service {
+  margin-top: -8rem;
+}
+.detailservice-p {
+  text-decoration: underline;
+}
+/* <!--5-experience-spesh--> */
+.experience-spesh > div {
+  padding-top: 7rem;
+}
+/* //////different-panel */
+
+/* /////////////beeeeeeeetweeeeeeeen */
+@media (max-width: 1399px) {
+  .detail-service {
+    margin-top: -6rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .detail-service {
+    margin-top: -3rem;
+  }
+  .detail-service > div > ul p {
+    font-size: 0.6rem !important;
+  }
+}
+@media (max-width: 991px) {
+  .detail-service {
+    margin-top: 1rem;
+  }
+  .different-panel > p {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .buy-spesh-server {
+    margin-top: 7rem;
+  }
+  .buy-spesh-server > div:first-child {
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .buy-spesh-server > div:last-child {
+    width: 80%;
+  }
+  .detailservice-p {
+    font-size: 0.66rem !important;
+  }
+  .experience-spesh > img {
+    width: 80% !important;
+  }
+  .experience-spesh > div {
+    padding-top: 0rem;
+  }
+}
